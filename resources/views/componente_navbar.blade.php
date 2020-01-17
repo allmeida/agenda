@@ -12,6 +12,9 @@
         <li @if($current=="form") class="nav-item active" @else class="nav-item" @endif>
           <a class="nav-link" href="/contatos/create">Novo Contato</a>
         </li>
+        <li @if($current=="pdf") class="nav-item active" @else class="nav-item" @endif>
+            <a class="nav-link" href="/pdf">Visualizar PDF</a>
+          </li>
       </ul>
 
     </div>
