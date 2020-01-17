@@ -27,3 +27,5 @@ Route::post('/contatos/create','ContatoController@store');
 Route::get ('/contatos/edit/{id}','ContatoController@edit');
 Route::put ('/contatos/edit/{id}','ContatoController@update');
 Route::delete ('/contatos/{id}','ContatoController@destroy');
+
+Route::get('pdf', 'PdfController@geraPdf');
